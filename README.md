@@ -1,6 +1,8 @@
 # starrynight-mainsail-theme
 Theme for MainSail UI for use with klipper (3D printing) with starry backgrounds and nice colours
 
+Screenshots of the theme can be found in Screenshots.
+
 # Usage and setup
 1) Download git.
 
