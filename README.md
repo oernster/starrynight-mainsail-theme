@@ -12,7 +12,7 @@ git clone <paste in here without corner brackets>
 
 4a) You may need to install scp for your system.
 
-4b) scp (secure copy) all the files (one by one) excluding 'LICENSE' and 'README.md' into the .theme directory on your pi.
+4b) scp (secure copy) all the files (one by one) excluding 'LICENSE,' 'README.md' and the Screenshots directory into the .theme directory on your pi.
 
 e.g. scp <filename without corner brackets> pi@10.0.0.1:<filename without corner brackets>
 
