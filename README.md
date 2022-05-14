@@ -8,9 +8,11 @@ Screenshots of the theme can be found in Screenshots.
 
 2) Clone the repo by clicking on the green code button to the right and selecting copy, then type:
 
-git clone -paste_copied_text_here-
+git clone paste_copied_text_here
 
-3) Next, in ~/klipper_config on your pi, create a directory called '.theme'
+3) Next, ssh into your pi and enter the command (On windows you may prefer the tool putty):
+
+   mkdir ~/klipper_config/.theme
 
 4a) You may need to install scp for your system (windows; mac/linux should already have it).
 
