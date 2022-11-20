@@ -20,20 +20,6 @@ git clone paste_copied_text_here
 
 e.g. scp pi@10.0.0.1:custom.css custom.css
 
-for each of 'custom.css' 'favicon-32x32.png' 'main-background.jpeg' 'sidebar-background.jpeg' 'sidebar-logo.png'
-  
-4c) ssh into your pi
+for the whole theme directory copy that into ~/klipper_config/.theme
 
-4d) Copy each of the 5 files into the directory: /home/pi/klipper_config/.theme
-
-e.g. cp custom.css ~/klipper_config/.theme
-     cp *.jpeg ~/klipper_config/.theme
-     cp *.png ~/klipper_config/.theme
-
-4e) Delete the pre-copied files:
-
-e.g. rm *.css
-     rm *.jpeg
-     rm *.png
-
-5) Refresh your browser!
+5) Reboot your pi
