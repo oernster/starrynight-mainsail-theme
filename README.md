@@ -1,5 +1,5 @@
 # starrynight-mainsail-theme
-Theme for a Voron 0.1 MainSail UI for use with klipper (3D printing) with starry/moon backgrounds and nice colours
+Theme for a Voron MainSail UI for use with klipper (3D printing) with starry/moon backgrounds and nice colours
 
 Screenshots of the theme can be found in Screenshots.
 
