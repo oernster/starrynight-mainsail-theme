@@ -22,4 +22,4 @@ e.g. scp pi@10.0.0.1:custom.css custom.css
 
 for the whole theme directory copy that into ~/klipper_config/.theme
 
-5) Reboot your pi
+5) Restart MainSail
