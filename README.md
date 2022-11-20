@@ -1,5 +1,5 @@
 # starrynight-mainsail-theme
-Theme for MainSail UI for use with klipper (3D printing) with starry backgrounds and nice colours
+Theme for a Voron 0.1 MainSail UI for use with klipper (3D printing) with starry/moon backgrounds and nice colours
 
 Screenshots of the theme can be found in Screenshots.
 
@@ -16,7 +16,7 @@ git clone paste_copied_text_here
 
 4a) You may need to install scp for your system (windows; mac/linux should already have it).
 
-4b) scp (secure copy) all the files (one by one) on to your pi.
+4b) scp (secure copy) all the files (one by one) on to your pi.  Or on windows use WinSCP, on mac CyberDuck is a nice UI tool for SFTP.
 
 e.g. scp pi@10.0.0.1:custom.css custom.css
 
@@ -37,6 +37,3 @@ e.g. rm *.css
      rm *.png
 
 5) Refresh your browser!
-
-# Comments
-FYI, if you use Kiaou to install a theme (my starrynight theme isn't supported this way yet anyhow), in my experience it doesn't work
