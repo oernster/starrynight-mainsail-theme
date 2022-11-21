@@ -5,9 +5,9 @@ This is a dark-mode theme vyper for mainsail
 :root {
     --Primary:        #282a36;    /*Voron:Black*/
     --Secondary:      #ff5555;    /*Voron:Red*/
-    --c_blue:         #483d8b;    /*cryd_darkslateblue*/
+    --c_gold:         #ffd700;    /*Gold*/
     --c_gray:         #2b2b2b;    /*cryd:grey*/
-    --Blue:           #8a2be2;    /*purple change*/
+    --Yellow:         #FFFF00;    /*purple change*/
     --Red:            #ff5555;
     --Warnings:       #00eafb;
     --Text:           #f8f8f2;
@@ -26,27 +26,27 @@ This is a dark-mode theme vyper for mainsail
 }
 
 .v-application .warning {
-    background-color: var(--c_blue) !important;
-    border-color: var(--c_blue);
+    background-color: var(--c_gold) !important;
+    border-color: var(--c_gold);
 }
 
 .v-application .primary {
     background-color: var(--c_grey) !important;
-    border-color: var(--c_blue) !important;
+    border-color: var(--c_gold) !important;
 }
 
 .v-application .success--text {
-    color: var(--c_blue) !important;
-    caret-color: var(--c_blue) !important;
+    color: var(--c_gold) !important;
+    caret-color: var(--c_gold) !important;
 }
 
 .v-application .primary--text {
-    color: var(--c_blue) !important;
-    caret-color: var(--c_blue) !important;
+    color: var(--c_gold) !important;
+    caret-color: var(--c_gold) !important;
 }
 
 .v-application a {
-    color: var(--c_blue);
+    color: var(--c_gold);
 }
 
  .v-btn:not(.v-btn--outlined).warning {
@@ -58,21 +58,21 @@ This is a dark-mode theme vyper for mainsail
 }
 
 .v-application .text-body-2, .v-application .text-button {
-    color: var(--c_blue);
+    color: var(--c_gold);
 }
 
 .v-progress-circular__overlay .v-card__text {
-    stroke: var(--c_blue) !important;
+    stroke: var(--c_gold) !important;
 }
 
 .v-slider__track-fill.primary {
-    background-color: var(--c_blue) !important;
-    border-color: var(--c_blue) !important;
+    background-color: var(--c_gold) !important;
+    border-color: var(--c_gold) !important;
 }
 
 .v-slider__thumb.primary {
-    background-color: var(--c_blue) !important;
-    border-color: var(--c_blue) !important;
+    background-color: var(--c_gold) !important;
+    border-color: var(--c_gold) !important;
 }
 
 /*
