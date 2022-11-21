@@ -5,9 +5,9 @@ This is a dark-mode theme vyper for mainsail
 :root {
     --Primary:        #282a36;    /*Voron:Black*/
     --Secondary:      #ff5555;    /*Voron:Red*/
-    --c_gold:         #ffd700;    /*Gold*/
+    --vred:           #ff5555;    /*Voron:Red*/
     --c_orchid:       #da70d6;    /*Orchid*/
-    --Yellow:         #FFFF00;    /*purple*/
+    --crimson:        crimson;    /*crimson*/
     --Red:            #ff5555;
     --Warnings:       #00eafb;
     --Text:           #ff8c00;
@@ -30,27 +30,27 @@ This is a dark-mode theme vyper for mainsail
 }
 
 .v-application .warning {
-    background-color: var(--c_gold) !important;
-    border-color: var(--c_gold);
+    background-color: var(--vred) !important;
+    border-color: var(--vred);
 }
 
 .v-application .primary {
     background-color: var(--c_grey) !important;
-    border-color: var(--c_gold) !important;
+    border-color: var(--vred) !important;
 }
 
 .v-application .success--text {
-    color: var(--c_gold) !important;
-    caret-color: var(--c_gold) !important;
+    color: var(--vred) !important;
+    caret-color: var(--vred) !important;
 }
 
 .v-application .primary--text {
-    color: var(--c_gold) !important;
-    caret-color: var(--c_gold) !important;
+    color: var(--vred) !important;
+    caret-color: var(--vred) !important;
 }
 
 .v-application a {
-    color: var(--c_gold);
+    color: var(--vred);
 }
 
  .v-btn:not(.v-btn--outlined).warning {
@@ -62,21 +62,21 @@ This is a dark-mode theme vyper for mainsail
 }
 
 .v-application .text-body-2, .v-application .text-button {
-    color: var(--c_gold);
+    color: var(--vred);
 }
 
 .v-progress-circular__overlay .v-card__text {
-    stroke: var(--c_gold) !important;
+    stroke: var(--vred) !important;
 }
 
 .v-slider__track-fill.primary {
-    background-color: var(--c_gold) !important;
-    border-color: var(--c_gold) !important;
+    background-color: var(--vred) !important;
+    border-color: var(--vred) !important;
 }
 
 .v-slider__thumb.primary {
-    background-color: var(--c_gold) !important;
-    border-color: var(--c_gold) !important;
+    background-color: var(--vred) !important;
+    border-color: var(--vred) !important;
 }
 
 /*
