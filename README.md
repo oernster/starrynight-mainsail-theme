@@ -12,14 +12,14 @@ git clone paste_copied_text_here
 
 3) Next, ssh into your pi and enter the command (On windows you may prefer the tool putty):
 
-   mkdir ~/klipper_config/.theme
+   mkdir ~/printer_data/config/.theme
 
 4a) You may need to install scp for your system (windows; mac/linux should already have it).
 
-4b) scp (secure copy) all the files (one by one) on to your pi.  Or on windows use WinSCP, on mac CyberDuck is a nice UI tool for SFTP.
+4b) scp (secure copy) all the files (one by one) on to your pi into the above mkdir'd folder.  Or on windows use WinSCP, on mac CyberDuck is a nice UI tool for SFTP.
 
 e.g. scp pi@10.0.0.1:custom.css custom.css
 
-for the whole theme directory copy that into ~/klipper_config/.theme
+for the whole theme directory copy that into ~/printer_data/config/.theme
 
 5) Restart MainSail
